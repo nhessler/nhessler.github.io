@@ -1,0 +1,16 @@
+{
+  "name": "nhessler.github.io",
+  "version": "1.0.0",
+  "description": "Main Profile Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Hessler",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^2.18.11",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
