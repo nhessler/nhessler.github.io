@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Homestead One";
+  src: url("../fonts/Homestead-One.ttf")
+}
+
+@font-face {
+  font-family: "Homestead Two";
+  src: url("../fonts/Homestead-Two.ttf")
+}
+
+@font-face {
+  font-family: "Homestead Three";
+  src: url("../fonts/Homestead-Three.ttf")
+}
+
+@font-face {
+  font-family: "Homestead Display";
+  src: url("../fonts/Homestead-Display.ttf")
+}
+
+@font-face {
+  font-family: "Homestead Inline";
+  src: url("../fonts/Homestead-Inline.ttf")
+}
+
+@font-face {
+  font-family: "Homestead Regular";
+  src: url("../fonts/Homestead-Regular.ttf")
+}
