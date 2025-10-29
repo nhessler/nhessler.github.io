@@ -1,0 +1,15 @@
+{
+  "name": "rewriting-localhost-presentation",
+  "version": "1.0.0",
+  "description": "A presentation about modern dev environments and localhost alternatives",
+  "scripts": {
+    "start": "npx http-server . -p 8000 -o",
+    "dev": "npx http-server . -p 8000"
+  },
+  "dependencies": {
+    "reveal.js": "^5.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
