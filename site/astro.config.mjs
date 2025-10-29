@@ -8,7 +8,15 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   integrations: [svelte()],
 
+  server: {
+    port: 4210,
+    host: true
+  },
+
   vite: {
+    server: {
+      allowedHosts: ['nathanhessler.test', 'localhost']
+    },
     plugins: [tailwindcss()]
   }
 });

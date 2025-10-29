@@ -78,8 +78,8 @@ npm run dev
 # Or manually
 cd site
 npm run dev
-# Runs on localhost:4321 (Astro default)
-# Point nathanhessler.test → localhost:4321 in Caddy
+# Runs on localhost:4210
+# Access via nathanhessler.test (Caddy) or localhost:4210
 ```
 
 ### Working on a Presentation
@@ -209,7 +209,7 @@ npm run preview      # Preview built site
 
 # Site-specific
 cd site
-npm run dev          # Astro dev server on :4321
+npm run dev          # Astro dev server on :4210
 npm run build        # Build site only to site/dist/
 npm run preview      # Preview production build
 
