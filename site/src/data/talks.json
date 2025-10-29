@@ -1,3 +1,15 @@
 {
-  "talks": []
+  "talks": [
+    {
+      "id": "stranger-domains",
+      "title": "Stranger Domains: Embedding your app across the web",
+      "date": "2025-08",
+      "published": true,
+      "folder": "stranger-domains",
+      "event": "ElixirConf",
+      "location": "Orlando, FL",
+      "description": "LiveView is great—until it has to live somewhere else.\n\nWhether you're integrating with a third-party site, building a white-label solution, or exposing your app as a widget, operating outside your own domain introduces a new class of problems. LiveView starts to feel boxed in, and the usual tooling for cookies, headers, and sockets doesn't quite behave as expected.\n\nIn this talk, we'll dig into the challenges and tradeoffs of embedding Phoenix apps into third-party domains. And when to choose between iframes and custom elements as delivery mechanisms.",
+      "videoUrl": ""
+    }
+  ]
 }

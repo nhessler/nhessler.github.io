@@ -1,0 +1,42 @@
+---
+import talksData from '../../data/talks.json';
+
+const talks = talksData.talks
+  .filter(talk => talk.published)
+  .sort((a, b) => b.date.localeCompare(a.date));
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talks - Nathan Hessler</title>
+</head>
+<body>
+  <main>
+    <h1>Talks</h1>
+
+    {talks.length === 0 ? (
+      <p>No talks yet.</p>
+    ) : (
+      <ul>
+        {talks.map(talk => (
+          <li>
+            <h2>
+              <a href={`/talks/${talk.id}/`}>{talk.title}</a>
+            </h2>
+            <p>
+              <strong>{talk.event}</strong> - {talk.location} ({talk.date})
+            </p>
+            <p>{talk.description}</p>
+            {talk.videoUrl && (
+              <p><a href={talk.videoUrl}>Watch video</a></p>
+            )}
+          </li>
+        ))}
+      </ul>
+    )}
+  </main>
+</body>
+</html>
