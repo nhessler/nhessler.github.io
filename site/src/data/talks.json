@@ -1,6 +1,17 @@
 {
   "talks": [
     {
+      "id": "bouncy-trampolines",
+      "title": "The Bouncy Path To Trampolines",
+      "date": "2017-07",
+      "published": true,
+      "folder": "bouncy-trampolines",
+      "event": "Ruby Nation",
+      "location": "Arlington, VA",
+      "description": "Recursion is elegant, but stack overflows are not. What if there was a way to recurse indefinitely without hitting stack limits, even in languages that don't support tail call optimization? This talk explores an unexpected solution inspired by Clojure, implemented in Ruby with nothing but clever stack management. Through visual examples and step-by-step breakdowns we'll learn to bounce on trampolines and save our stack.",
+      "videoUrl": ""
+    },
+    {
       "id": "stranger-domains",
       "title": "Stranger Domains: Embedding your app across the web",
       "date": "2025-08",
