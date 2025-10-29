@@ -1,20 +1,13 @@
 {
-  "name": "nhessler.github.io",
-  "version": "1.0.0",
-  "description": "Main Profile Page",
-  "main": "index.js",
+  "name": "nathanhessler.com",
+  "version": "2.0.0",
+  "description": "Nathan Hessler's personal website",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && cp CNAME public/CNAME && gh-pages -d public -b master"
+    "dev": "cd site && npm run dev",
+    "build": "./build-scripts/build-all.sh",
+    "preview": "cd site && npm run preview"
   },
   "author": "Nathan Hessler",
-  "license": "ISC",
-  "dependencies": {
-    "gatsby": "^2.18.11",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^2.1.1"
-  }
+  "license": "ISC"
 }

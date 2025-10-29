@@ -1,4 +1,39 @@
-node_modules/
+# Build outputs
+dist/
+site/dist/
+talks/*/dist/
 
+# Astro generated types
+.astro/
+
+# Dependencies
+node_modules/
+site/node_modules/
+talks/*/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.production
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Old Gatsby artifacts (from previous version)
 .cache/
 public/
