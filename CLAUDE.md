@@ -219,6 +219,12 @@ npm run dev          # Talk-specific dev server (framework-dependent)
 npm run build        # Build talk to dist/
 ```
 
+## Git Workflow
+
+This project uses the **git-pretty-accept** merge workflow for feature branches. See `~/.claude/skills/git-pretty-accept.md` for details.
+
+Small fixes can be committed directly to main when appropriate.
+
 ## Deployment
 
 **Cloudflare Pages** configuration:
