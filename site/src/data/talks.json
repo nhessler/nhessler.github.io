@@ -10,6 +10,17 @@
       "location": "Orlando, FL",
       "description": "LiveView is great—until it has to live somewhere else.\n\nWhether you're integrating with a third-party site, building a white-label solution, or exposing your app as a widget, operating outside your own domain introduces a new class of problems. LiveView starts to feel boxed in, and the usual tooling for cookies, headers, and sockets doesn't quite behave as expected.\n\nIn this talk, we'll dig into the challenges and tradeoffs of embedding Phoenix apps into third-party domains. And when to choose between iframes and custom elements as delivery mechanisms.",
       "videoUrl": ""
+    },
+    {
+      "id": "rewriting-localhost",
+      "title": "Rewriting Localhost: A Modern Approach to Dev Environments",
+      "date": "2025-10",
+      "published": true,
+      "folder": "rewriting-localhost",
+      "event": "XO Ruby",
+      "location": "Austin, TX",
+      "description": "Tired of wrestling with localhost ports in your Ruby projects? A reverse proxy can simplify your local development, align it with production, and make multi-app environments effortless. In this talk, we'll explore the evolution of reverse proxy solutions, their setup, and their role in Ruby development. Through practical examples and use cases, you'll discover flexible strategies to enhance your local dev workflow.",
+      "videoUrl": ""
     }
   ]
 }
